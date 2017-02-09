@@ -10,7 +10,7 @@ var stringObject =  String("Ala Eddine JEBALI");
  ```
 How to implement a memorySizeOf function which returns the memory size of stringObject?
 ```js
-console.log( memorySizeOf(stringObject) );
+memorySizeOf(stringObject)
  ```
 # Other objects
 Let's say that you have this object:
@@ -19,7 +19,7 @@ var personObject =  {persone: {name: 'Ala Eddine JEBALI', country: 'France', age
  ```
 How to implement a memorySizeOf function which returns the memory size of personObject?
 ```js
-console.log( memorySizeOf(personObject) );
+memorySizeOf(personObject)
  ```
 # Remark
 The result is of course the same when you want to check
