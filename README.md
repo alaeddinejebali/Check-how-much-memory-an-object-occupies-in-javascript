@@ -7,14 +7,18 @@ Let's say that you have a string:
 
 ```js
 var stringObject =  String("Ala Eddine JEBALI");
+ ```
 How to implement a memorySizeOf function which returns the memory size of stringObject?
+```js
 console.log( memorySizeOf(stringObject) );
  ```
 # Other objects
 Let's say that you have this object:
 ```js
 var personObject =  {persone: {name: 'Ala Eddine JEBALI', country: 'France', age: 30}};
+ ```
 How to implement a memorySizeOf function which returns the memory size of personObject?
+```js
 console.log( memorySizeOf(personObject) );
  ```
 # Remark
